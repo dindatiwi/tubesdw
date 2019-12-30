@@ -1,0 +1,348 @@
+*{font-family: 'Montserrat', sans-serif;
+}
+
+.brand {
+    font-weight: 600;
+    color: #315b96;
+}
+
+.carousel{
+    background-color: #eda1c1;
+}
+
+.navbar{
+    padding-top: 10px;
+}
+
+.katagori{
+    color: #315b96;
+}
+
+.logo{
+    color: #315b96;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 630px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  /* Add a grey background to dropdown links on hover */
+  .dropdown-content a:hover {
+    color: #315b96;
+  }
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .kategori{
+      padding: 10px;
+  }
+
+  .navdua{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .isi{
+    width: 600px;
+    position: relative;
+  }
+
+  .title{
+    margin-left: 300px;
+    font-weight: 600;
+    color: #233567;
+    font-size: 80px;
+  }
+
+  .detail{
+    margin-left: 300px;
+    color: white;
+  }
+  .detail-1{
+    padding-top: 180px;
+    margin-left: 300px;
+    color: white;
+  }
+
+
+
+  .tombol{
+    background-color: #ffffc2;
+    margin-left: 300px;
+  }
+  .tombol:hover{
+    background-color: #c8e7ed;
+  }
+  .isi2{
+    max-width: 1000px;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .dalemcard{
+    margin-top: 230px;
+    position: absolute;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff971d;
+  }
+  .dalemcard2{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 45px;
+    font-size: 30px;
+    color: #35477d;
+    letter-spacing: 0.4px;
+  }
+
+  .tomboldalam{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 100px;
+  }
+  .bodyform{
+    background-color: #35477d;
+    height: 425px;
+    color: #d7f8f7;
+  }
+
+  .subs{
+    font-size: medium;
+    color: #233567;
+    background: #eda1c1 ;
+  }
+
+  .subs2{
+    font-size: medium;
+    color: #ffffc2;
+    background: #233567;
+  }
+  .subs2:hover{
+    background: #ffffc2;
+    color:#233567 ;
+  }
+
+  .subs3{
+    font-size: 15px;
+    border-radius: 20px;
+    color: #233567;
+    border: solid 1px #315b96;
+    padding: 10px 80px 10px 80px;
+  }
+
+  .subs3:hover{
+    color: white;
+    background: #315b96;
+  }
+
+
+  .tanda{
+    width: 50px;
+  }
+  .subs:hover{
+    color: #315b96;
+    background: #ffffc2;
+  }
+
+  .gambar{
+    width: 600px;
+  }
+
+  .des{
+    margin-top: 90px ;
+    margin-left: 100px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+
+  .des2{
+    letter-spacing: 2px;
+    color: #233567;
+  }
+
+  .benda{
+    width: 10rem;
+  }
+
+  .benda .btn-love{
+    visibility: hidden;
+  }
+
+  .benda:hover .btn-love{
+    visibility: visible;
+  }
+
+  .btncart{
+    background:#315b96 ;
+    font-size: 13px;
+    padding: 8px 30px 8px 30px;
+    color: ivory;
+  }
+
+  .judul{
+    font-size: 15px;
+  }
+
+  .btncart:hover{
+    color:#ffffc2 ;
+    background: #1d3d6b;
+  }
+
+  .btn-love{
+    border: solid 1px #1d3d6b;
+  }
+  .btn-love:hover{
+    background: #1d3d6b;
+    color: #ffffc2;
+  }
+
+  .abis{
+    background-color: #bfcfff;
+    padding-top: 5px;
+  }
+
+  .anakkaki{
+    margin-top: 100px;
+  }
+
+  .qlinks a{
+    text-decoration: none;
+    color: grey;
+    font-size: small;
+  }
+
+  .qlinks a:hover{
+    color: #ffffc2;
+  }
+
+  .follow a{
+    color: gray;
+  }
+
+  .follow li{
+    display: inline;
+    padding-left: 10px;
+    font-size: 25px;
+  }
+
+  .follow a:hover{
+    color: #ffffc2;
+  }
+
+  .fotodetail{
+    position: relative;
+    z-index: -1;
+  }
+  .product-thumbnail-container{
+    margin-left: 150px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+  }
+  .product-thumbnail-container img{
+    width: 50px;
+    border: solid 0.5px #bfcfff;
+  }
+
+  .klik:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .kliklgi{
+    text-decoration: none;
+    font-size: small;
+    color: black;
+  }
+  .kliklgi:hover{
+    color: #1d3d6b;
+  }
+
+  .kliklgi > i:hover{
+    margin-left: 10px;
+  }
+
+  .minus{
+    background-color: #EAEAEF; 
+    color: white;
+  }
+
+  .minus:hover{
+    background: red;
+    color: white
+  }
+
+  .plus{
+    color: white; 
+    background-color: #EAEAEF;
+  }
+
+  .plus:hover{
+    background-color:#1d3d6b;
+    color: white
+  }
+
+  .panjang{
+    width: 45px;
+  }
+
+  .reviewer{
+    width: 50px;
+  }
+
+  .cekout{
+    background: #FAFAFA;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: gray;
+  }
+
+  .satu{
+    text-align: center;
+  }
+
+  .detailitem{
+    width: 200px;
+  }
+
+  .cunti {
+    text-align: right;
+    padding-top: 1.5px;
+  }
+
+  .kanan > span{
+    text-align: right;
+  }
+
+  .copiret{
+    position: relative;
+    margin-top: 5px;
+    justify-content: center;
+    font-size: x-small;
+  }
+
+  .bayar img{
+    width: 50px;
+    margin: 10px;
+  }

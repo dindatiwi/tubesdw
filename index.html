@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Stationary Shop</title>
+</head>
+<body>
+
+<!-- navbar -->
+   <nav class="navbar navbar-expand-lg mt-3">
+    <div class="container container-fluid">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" ><i class="fas fa-bars" style="color:#315b96; font-size:28px;"></i></span>
+    </button>
+      <a class="navbar-brand brand" href="#"> <span><i class="far fa-grin-squint-tears"></i></span> penc!L</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="mr-4"><input class="form-control" type="search" placeholder="Search" aria-label="Search"></li>
+          <li class="mr-3 pt-2 "><a href="cart.html"><span class="logo"><i class="fas fa-shopping-cart"></i></span></a></li>
+                    <li class="mr-3 pt-2 "><a href="#"><span class="logo"><i class="fas fa-heart"></i></span></a></li>
+          <li class="pt-2 " ><a href="#"><span class="logo"><i class="fas fa-user"></i></span></a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <!-- navbar bawah -->
+  <nav class="navbar navbar-expand-lg sticky-top navdua">
+    <div class="container container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+      <ul class="navbar-nav mx-auto ">
+          <li class="mr-4">  <div class="dropdown katagori">
+            <a class="dropbtn">All Catagories
+            </a>
+            <div class=" dropdown-content">
+              <div class="container">
+                <div class="row kategori mb-2">
+              <ul style="list-style-type:none;">
+                <li class="mt-2 " ><a href="#" class="tes">NOTEBOOKS</a></li>
+                <li class="mt-2"><a href="#" >TOTE BAGS</a></li>
+                <li class="mt-2 mb-2"><a href="#" >STICKERS</a></li>
+              </ul>
+              <ul style="list-style-type:none;" >
+                <li class="mt-2"><a href="#" >BACKPACKS</a></li>
+                <li class="mt-2"><a href="#" >DESK ACCESSORIES</a></li>
+                <li class="mt-2 mb-2"><a href="#" >STAMPS</a></li>
+              </ul>
+              <ul style="list-style-type:none;" >
+                  <li class="mt-2"><a href="#" >PENS</a></li>
+                  <li class="mt-2"><a href="#" >PLUSHIES</a></li>
+                  <li class="mt-2 mb-2"><a href="#" >STICKY NOTES</a></li>
+                </ul>
+            </div>
+            </div>
+            </div>
+          </div>
+          </li>
+          <li class="mr-3"><a href="#" class="katagori">Newest Additions</a><span class="badge badge-pill badge-danger ml-1">New</span></li>
+          <li class="mr-3"><a href="#" class="katagori">Trending</a><span class="badge badge-pill badge-warning ml-1">Hot</span></li>
+          <li class="mr-3"><a href="#" class="katagori">Top Selling</a></li>          
+          <li ><a href="#" class="katagori">Surprise Gift</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <!-- end navbar -->
+
+
+
+<!-- carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row justify-content-center">
+        <div class="col-3 d-none d-sm-block">
+          <img src="images/tes-removebg-preview.png" class="d-block isi" alt="...">
+        </div>
+        <div class="col-9 mt-5 mb-5">
+            <p class="detail-1 mt-5 ">Limited Edition</p>
+          <h1 class="title "> Grab It Now</h1>
+          <p class="detail">Fjallraven Kanken Embroidery Backpack</p>
+          <button type="button" class=" col-2 btn tombol rounded p-2">Add to Cart</button>
+           <button type="button" class="col-2 btn ml-3 btn-outline-dark rounded p-2">View Collections</button>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <div class="row justify-content-center">
+            <div class="col-3 d-none d-sm-block">
+              <img src="images/dua.png" class="d-block isi2" alt="...">
+            </div>
+            <div class="col-9 mt-5">
+                <p class="detail-1 mt-5 ">Newest Themed Items</p>
+              <h1 class="title "> Oceon Blue</h1>
+              <p class="detail">Beautifull Stationary with Blue Swatches</p>
+              <button type="button" class=" col-2 btn tombol rounded p-2">View Collections</button>
+               <button type="button" class="col-2 btn ml-3 btn-outline-dark rounded p-2">Other Swatches</button>
+    
+            </div>
+          </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- end carousel -->
+
+
+<section id="iklan">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col ">
+          <div class="card" style="width: 20rem;">
+              <img src="images/plush-design-studio-FHCVK6Vyvwc-unsplash.jpg" class="card-img-top" alt="...">
+              <p class="dalemcard">Premium <br> Gold <br> Edition</p>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 20rem;">
+              <img src="images/634188642322b19ec29b9da4faf53971.jpg" class="card-img-top" style="height: 425px;" alt="...">
+              <p class="dalemcard2">Back To School</p>
+              <button type="button" class="btn btn-outline-info tomboldalam">View Now</button>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card bodyform" style="width: 21rem;">
+              <div class="card-body m-3">
+                  <form >
+                      <div class="form-group">
+                        <h1 class="text-uppercase text-center mt-2">sale 35% off</h1>
+                        <p class="font-italic text-center mt-3" style="font-size: medium;">Come to those <br> who up for our newsletter.</p>
+                        <input type="email" placeholder="Enter Your Email" class="form-control text-center mt-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <button type="submit" class="btn btn-lg btn-block p-2 subs">Subscribe</button>
+                       <small id="emailHelp" class="form-text text-muted mt-3 justify-content-center" style="color: #bee4d2 !important;">We'll never share your email with anyone else.</small>
+                      </form>  
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="desc">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col mt-5 mb-5">
+        <img class="rounded gambar" src="images/44766f09b0e2548ba3d14a6acbff6b3e.jpg" alt="">
+      </div>  
+      <div class="col mb-5 des">
+        <hr>
+        <span class="text-uppercase text-muted">01.</span> <span class="des2 text-uppercase">Stationary</span> <br>
+        <p class="mt-5 text-muted " style="font-size: small;"> The trendy essentials, From summer-inspired to Sakura themed and lastly Oceon blue styled notebooks to fun throwback stickers and a few tech necessities, the gifts below have a little something for everyone. <br> <br> Pick a few up for yourself or send a sweet care package to make that back-to-school or even office essentials transition that much easier.</p>
+        <button type="submit" class="btn subs2 mt-5 pl-5 pr-5 pt-3 pb-3" style="font-size: small;">View Collections</button>
+      </div>
+    </div>
+    </div>
+</section>
+
+<section id="desc">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col mb-5 des">
+          <hr>
+          <span class="text-uppercase text-muted">02.</span> <span class="des2 text-uppercase">bags</span> <br>
+          <p class="mt-5 text-muted " style="font-size: small;">
+            Official collaboration with the famous <i>Fjällräven</i> backpacks, The brand became known outside of its home country for its colorful, classic, and now ubiquitous Kånken backpacks that were carried by Swedish schoolchildren long before they were adopted by hipsters worldwide.
+         <br> <br> There are three new takes on the Kånken and other famous brands too, including a mini clutch and a version that converts into a messenger bag.
+          </p>
+          <a href="detail.html">
+            <button type="submit" class="btn subs mt-5 pl-5 pr-5 pt-3 pb-3" style="font-size: small;">View Collections</button>
+          </a>
+          
+        </div>
+        <div class="col mt-5">
+          <img class="rounded gambar" src="images/1faa44c4cb69189e69c2b9f1ee3e7d21.jpg" alt="">
+        </div> 
+      </div>
+      </div>
+  </section>
+
+  <section>
+    <div class="container mt-5">
+      <h1 class="text-uppercase" style="color: #233567;">Our Top Products</h1>
+      <p class="mb-5 text-muted">Selected top products</p>
+      <div class="row">
+          <div class="col-3 card benda border-0">
+            <a href="detail.html"><img src="images/Momo-Cat-Gel-Ink-Pen-3_grande.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title text-muted judul">Cat Gel Ink</h5>
+                <h5 class="font-weight-bold">$280.99</h5>
+                <button type="button" class="btn btncart mt-2">Add to cart</button>
+                <button class="btn mt-2 ml-2 btn-love"><span><i class="far fa-heart"></i></span></button>
+              </div>
+            </div>
+            <div class="col-3 card benda border-0">
+                <img src="images/1-set-Star-Constellation-Washi-Tapes-universe-galaxy-nebula-washi-tapes-adhesive-paper-tapes-masking-tapes-scrapbooking-bullet-journaling-office-school-supplies_grande.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-muted judul">Star Constellation Washi Tapes</h5>
+                  <h5 class="font-weight-bold">$80.99</h5>
+                  <button type="button" class="btn btncart mt-2">Add to cart</button>
+                  <button class="btn mt-2 ml-2 btn-love"><span><i class="far fa-heart"></i></span></button>
+                </div>
+              </div>
+              <div class="col-3 card benda border-0">
+                  
+                  <img src="images/b350f79004953f8ae789c0b1f1878936.jpg" class="card-img-top tes" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-muted judul m-0">Japanese Style Gel Ink<span class="badge badge-danger tanda">SALE</span></h5>
+                    <h5 class="font-weight-bold"> <small style="text-decoration: line-through;">$520.99</small> $330.20</h5>
+                    <button type="button" class="btn btncart mt-2">Add to cart</button>
+                    <button class="btn mt-2 ml-2 btn-love"><span><i class="far fa-heart"></i></span></button>
+                  </div>
+                </div>
+                <div class="col-3 card benda border-0">
+                    <img src="images/travelingnote.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-muted judul">Colorful Gel Ink Pack of 12</h5>
+                      <h5 class="font-weight-bold">$580.99</h5>
+                      <button type="button" class="btn btncart mt-2">Add to cart</button>
+                      <button class="btn mt-2 ml-2 btn-love"><span><i class="far fa-heart"></i></span></button>
+                    </div>
+                  </div>
+      </div>
+    </div>
+    <div class="container mb-5 mt-3">
+      <div class="row">
+        <div class="mx-auto">                    
+          <button type="submit" class="btn subs3 text-uppercase">Show More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- footer bg -->
+<div class="kosong">
+      </div>
+<!-- footer bg -->
+
+<footer>
+    <section class="abis">
+              <div class="container">
+        <div class="row anakkaki text-muted">
+          <div class="col-4">
+            Quick Links <hr>
+            <ul class="p-0 qlinks" style="list-style:none;">
+              <li><a href="">About Us</a></li>
+              <li> <a href="">Gift Card</a></li>
+              <li> <a href="">Shipping & Returns</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-4">
+              Follow Us <hr>
+              <ul class="follow" style="list-style:none;">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-4" style="font-size: small;">
+                Newsletter <hr>
+                <form >
+                    <div class="form-group">
+                      <p class="font-italic mt-3" style="font-size: small;">Sign up for subscriber-only discounts, first look at newly-curated items and latest updates. </p>
+                      <input type="email" placeholder="Enter Your Email" class="form-control text-center mt-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn subs pl-5 pr-5" style="font-size: small;">Subscribe</button>
+                     <small id="emailHelp" class="form-text text-muted mt-3 justify-content-center">We'll never share your email with anyone else.</small>
+                    </form> 
+    
+              </div>
+        </div>
+        <div class="row copiret mt-5">
+              <figure class="figure">
+         <figcaption class="figure-caption bayar">
+             <img src="images/mandiri.png" >
+             <img src="images/bri.png" >
+             <img src="images/bni.png" >
+             <img src="images/bca.png" >
+             <img src="images/visa.png" >
+             <img src="images/mastercard.png" >
+             <img src="images/gopay.png" >
+             <img src="images/alfamart.png" >
+         </figcaption>
+       </figure>
+  </div>
+        <div class="row copiret text-muted">
+             <p>Copyright © 2019, Pencil Stationary Shop. Owned by Adinda Pratiwi Prameswari.</p>
+        </div>
+      </div>
+    </section>
+    </footer>
+
+
+
+
+
+   <!-- javascript -->
+   
+   <script src="js/jquery-3.4.1.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>   
+   <script src="https://kit.fontawesome.com/ff49dd4774.js" crossorigin="anonymous"></script>
+
+   <!-- end of javascript -->
+</body>
+</html>

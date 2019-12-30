@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Stationary Shop</title>
+</head>
+<body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg mt-3">
+          <div class="container container-fluid">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+            <a class="navbar-brand brand" href="#"> <span><i class="far fa-grin-squint-tears"></i></span> penc!L</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="mr-4"><input class="form-control" type="search" placeholder="Search" aria-label="Search"></li>
+                <li class="mr-3 pt-2 "><a href="cart.html"><span class="logo"><i class="fas fa-shopping-cart"></i></span></a></li>
+                          <li class="mr-3 pt-2 "><a href="#"><span class="logo"><i class="fas fa-heart"></i></span></a></li>
+                <li class="pt-2 " ><a href="#"><span class="logo"><i class="fas fa-user"></i></span></a></li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      <!-- navbar bawah -->
+      <nav class="navbar navbar-expand-lg sticky-top navdua">
+        <div class="container container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+          <ul class="navbar-nav mx-auto ">
+              <li class="mr-4">  <div class="dropdown katagori">
+                <a class="dropbtn">All Catagories
+                </a>
+                <div class=" dropdown-content">
+                  <div class="container">
+                    <div class="row kategori mb-2">
+                  <ul style="list-style-type:none;">
+                    <li class="mt-2 " ><a href="#" class="tes">NOTEBOOKS</a></li>
+                    <li class="mt-2"><a href="#" >TOTE BAGS</a></li>
+                    <li class="mt-2 mb-2"><a href="#" >STICKERS</a></li>
+                  </ul>
+                  <ul style="list-style-type:none;" >
+                    <li class="mt-2"><a href="#" >BACKPACKS</a></li>
+                    <li class="mt-2"><a href="#" >DESK ACCESSORIES</a></li>
+                    <li class="mt-2 mb-2"><a href="#" >STAMPS</a></li>
+                  </ul>
+                  <ul style="list-style-type:none;" >
+                      <li class="mt-2"><a href="#" >PENS</a></li>
+                      <li class="mt-2"><a href="#" >PLUSHIES</a></li>
+                      <li class="mt-2 mb-2"><a href="#" >STICKY NOTES</a></li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+              </div>
+              </li>
+              <li class="mr-3"><a href="#" class="katagori">Newest Additions</a><span class="badge badge-pill badge-danger ml-1">New</span></li>
+              <li class="mr-3"><a href="#" class="katagori">Trending</a><span class="badge badge-pill badge-warning ml-1">Hot</span></li>
+              <li class="mr-3"><a href="#" class="katagori">Top Selling</a></li>          
+              <li ><a href="#" class="katagori">Surprise Gift</a></li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+      <!-- end navbar -->
+
+      <section class="checkout">
+          <div class="container">
+              <div class="row">
+                  <div class="col-8 mt-5">
+                      <h3 class="text-uppercase font-weight-bold m-1">my cart</h3>
+                      <h5 class="cekout text-muted">Products</h5>
+                      <div class="row mt-5">
+                          <div class="col-4">
+                              <img class="detailitem" src="images/kaken2.jpg" alt="">
+                          </div>
+                          <div class="col mt-2">
+                                <h5 class="card-title text-muted judul">Kånken Cherry Pink</h5>
+                                <p class="text-muted m-0 p-0" style="font-size: smaller;">Backpack</p>
+                                <h5 class="font-weight-bold">$80.99</h5>
+                                <div class="btn-group mt-4" role="group">
+                                        <button type="button" class="quantity-left-minus btn btn-sm minus" data-type="minus" data-field=""><i
+                          class="fas fa-minus-circle"></i></button>
+                          <input type="text" id="quantity" name="quantity" class="form-control panjang input-number" value="10" min="1" max="100">
+                      <button type="button" class="quantity-right-plus btn btn-sm plus" data-type="plus" data-field=""><i
+                          class="fas fa-plus-circle"></i></button>
+                      </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-4 mt-5">
+                      <div class="cunti mb-3">
+                           <a href="#" class="kliklgi ">Continue Shopping <i class="fas fa-chevron-right"></i></a>
+                      </div>
+                        <h5 class=" cekout satu text-muted ">order summary</h5>
+                        <div class="row m-4">
+                           <div class="col-7">
+                               <p class="">Total</p>
+                           </div>
+                           <div class="col font-weight-bold">
+                                <p>$80.99</p>
+                            </div>
+                        </div>
+                        <div>
+                            <hr>
+                        </div>
+                        <div class="container mb-5 mt-5">
+                                <div class="row">
+                                  <div class="mx-auto">                    
+                                    <button type="submit" class="btn subs3 text-uppercase">Checkout <span><i class="fas fa-long-arrow-alt-right"></i></span></button>
+                                  </div>
+                                </div>
+                              <p class="text-muted mt-3" style="text-align: center; font-size: smaller;">Congratulations! You get free shipping</p>
+
+                              </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <div class="container m-5 mx-auto">
+          <hr>
+      </div>
+
+      <section>
+            <div class="container mt-5">
+              <h1 class="text-uppercase mb-4" style="color: #233567;">Trending Now</h1>
+              <div class="row">
+                  <div class="col-3 card benda border-0">
+                    <a href="detail.html"><img src="images/Momo-Cat-Gel-Ink-Pen-3_grande.jpg" class="card-img-top" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title text-muted judul">Cat Gel Ink</h5>
+                        <h5 class="font-weight-bold">$280.99</h5>
+                        <button type="button" class="btn btncart mt-2">Add to cart</button>
+                        <button class="btn mt-2 ml-2 btn-love"><span><i class="far fa-heart"></i></span></button>
+                      </div>
+                    </div>
+                    <div class="col-3 card benda border-0">
+                        <img src="images/1-set-Star-Constellation-Washi-Tapes-universe-galaxy-nebula-washi-tapes-adhesive-paper-tapes-masking-tapes-scrapbooking-bullet-journaling-office-school-supplies_grande.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-muted judul">Star Constellation Washi Tapes</h5>
+                          <h5 class="font-weight-bold">$80.99</h5>
+                          <button type="button" class="btn btncart mt-2">Add to cart</button>
+                          <button class="btn mt-2 ml-2 btn-love"><span><i class="far fa-heart"></i></span></button>
+                        </div>
+                      </div>
+                      <div class="col-3 card benda border-0">
+                          
+                          <img src="images/b350f79004953f8ae789c0b1f1878936.jpg" class="card-img-top tes" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title text-muted judul m-0">Japanese Style Gel Ink<span class="badge badge-danger tanda">SALE</span></h5>
+                            <h5 class="font-weight-bold"> <small style="text-decoration: line-through;">$520.99</small> $330.20</h5>
+                            <button type="button" class="btn btncart mt-2">Add to cart</button>
+                            <button class="btn mt-2 ml-2 btn-love"><span><i class="far fa-heart"></i></span></button>
+                          </div>
+                        </div>
+                        <div class="col-3 card benda border-0">
+                            <img src="images/travelingnote.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-muted judul">Colorful Gel Ink Pack of 12</h5>
+                              <h5 class="font-weight-bold">$580.99</h5>
+                              <button type="button" class="btn btncart mt-2">Add to cart</button>
+                              <button class="btn mt-2 ml-2 btn-love"><span><i class="far fa-heart"></i></span></button>
+                            </div>
+                          </div>
+              </div>
+            </div>
+            <div class="container mb-5 mt-3">
+              <div class="row">
+                <div class="mx-auto">                    
+                  <button type="submit" class="btn subs3 text-uppercase">Show More</button>
+                </div>
+              </div>
+            </div>
+          </section>
+ 
+
+<!-- footer bg -->
+<div class="kosong">
+    </div>
+  <!-- footer bg -->
+  
+  <footer>
+  <section class="abis">
+            <div class="container">
+      <div class="row anakkaki text-muted">
+        <div class="col-4">
+          Quick Links <hr>
+          <ul class="p-0 qlinks" style="list-style:none;">
+            <li><a href="">About Us</a></li>
+            <li> <a href="">Gift Card</a></li>
+            <li> <a href="">Shipping & Returns</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+            Follow Us <hr>
+            <ul class="follow" style="list-style:none;">
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-4" style="font-size: small;">
+              Newsletter <hr>
+              <form >
+                  <div class="form-group">
+                    <p class="font-italic mt-3" style="font-size: small;">Sign up for subscriber-only discounts, first look at newly-curated items and latest updates. </p>
+                    <input type="email" placeholder="Enter Your Email" class="form-control text-center mt-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <button type="submit" class="btn subs pl-5 pr-5" style="font-size: small;">Subscribe</button>
+                   <small id="emailHelp" class="form-text text-muted mt-3 justify-content-center">We'll never share your email with anyone else.</small>
+                  </form> 
+  
+            </div>
+      </div>
+      <div class="row copiret mt-5">
+            <figure class="figure">
+       <figcaption class="figure-caption bayar">
+           <img src="images/mandiri.png" >
+           <img src="images/bri.png" >
+           <img src="images/bni.png" >
+           <img src="images/bca.png" >
+           <img src="images/visa.png" >
+           <img src="images/mastercard.png" >
+           <img src="images/gopay.png" >
+           <img src="images/alfamart.png" >
+       </figcaption>
+     </figure>
+</div>
+      <div class="row copiret text-muted">
+           <p>Copyright © 2019, Pencil Stationary Shop. Owned by Adinda Pratiwi Prameswari.</p>
+      </div>
+    </div>
+  </section>
+  </footer>
+
+<!-- javascript -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>   
+      <script src="https://kit.fontawesome.com/ff49dd4774.js" crossorigin="anonymous"></script>
+      <script >
+      
+$(document).ready(function(){
+
+var quantitiy=0;
+   $('.quantity-right-plus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        // If is not undefined
+            $('#quantity').val(quantity + 1);
+            // Increment
+    });
+     $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        // If is not undefined
+            // Increment
+            if(quantity>0){
+            $('#quantity').val(quantity - 1);
+            }
+    });
+    
+});</script>
+<!-- endjavascript -->
+    </body>
+</html>
